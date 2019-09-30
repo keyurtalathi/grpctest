@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package api;
+
+service SomeStruct {
+   rpc SomeFunction(MSG1)returns(MSG1){}
+}
+
+message MSG1{
+	string A=1;
+}
